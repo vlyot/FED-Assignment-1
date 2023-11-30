@@ -116,6 +116,7 @@ section{
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 #progress{
     position: fixed;
@@ -288,13 +289,14 @@ form label{
 
 main {
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     position: relative;
     width: 100%;
     height: 100vh;
     overflow:scroll;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 
