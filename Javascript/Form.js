@@ -1,22 +1,16 @@
+const parentContainer = document.querySelector('.merch-feedback');
 
-const parentContainer =  document.querySelector('.merch-feedback');
-
-parentContainer.addEventListener('click', event=>{
-
+parentContainer.addEventListener('click', event => {
     const current = event.target;
 
-    const isReadMoreBtn = current.className.includes('open-form-btn');
+    const isFillFormBtn = current.classList.contains('open-form-btn');
 
-    if(!isReadMoreBtn) return;
+    if (!isFillFormBtn) return;
 
-    const currentText = event.target.parentNode.querySelector('.form-text');
+    const container = current.closest('.merch-feedback');
+
+    const currentText = container.querySelector('.form-text');
 
     currentText.classList.toggle('form-text--show');
-
-    current.textContent = current.textContent.includes('OPEN FORM');
-
-    const NewText = event.target.parentNode.querySelector('.open-from-btn');
-
-    NewText.classList.toggle('open-form-btn--hide');
-
-})
+    current.style.display = 'none';
+});

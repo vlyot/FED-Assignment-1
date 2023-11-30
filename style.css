@@ -235,8 +235,14 @@ form label{
 .merch-feedback{
     display: block;    
 }
-.open-form{
+.open-form-btn{
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 5px;
     color: #0984e3;
+    font-size: 1.3em;
+    font-style: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .form-text{
     display: none;
