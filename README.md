@@ -29,49 +29,67 @@ Here is the adobe XD wireframe: https://xd.adobe.com/view/e00b6661-dead-4a90-8dd
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Home page:
+Although not having any conent, the home page sets the tone and the feel of the website. From here, users can choose which part of the website they wish to navigate to.
+
+About page:
+The about page presents an overview of the band and information about the artists. This allows users to learn more about the band.
+
+Discography:
+This page will allow new and old fans to come together to view all of SONDER's music. newer fans can come and explore new music that they might not have explored yet.
+
+Listen page:
+This page allows users to stream sonder's music for free, and also allows them to option to stream on their preferred streaming platform, like Spotify.
+
+Activity page:
+This page shows the most recent activity of the band. Since the band is semi-active, this will benefit the fans as they can at least keep the most up to date. Potential hirers can also contact sonder through this page, and fans can sign up for exciting newsletters through their email.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - Allows users to fill out a form to subscribe to a newsletter regarding the latest news of the band
+- Feature 2 - Links to all of the band's social media platforms at the end of the page for easy access
+- Feature 3 - Image gallery in the About page so showcase the artists involved in the group
+- Feature 4 - Video image background for a more immersive feel to the website.
+- Feature 5 - Platform for users to stream sonder's music for free in the Listen page
+- Feature 6 - A Preview of Sonder's Twitter feed so that users can keep up to date
+- Feature 7 - A Form hidden by a button to reduce clutter
+- Feature 8 - Fans can subscribe to a newsletter through the form, and potential hirers can contact the band via the form submission
+- Feature 9 - Progress bar that allows user to go back to the top of the page without scrolling when they have reached the end of the page
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- Fontawesome.com: This website was used to embed icons into the website
+- Youtube.com: This website was used to allow users to stream Sonder's music on the website
+- Twitter.com: This website was used ti allow users to view Sonder's twitter feed.
+- HTML: is the most basic building block of the Web. It defines the meaning and structure of web content.
+- CSS: is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
+- Javascript: JavaScript (JS) is a lightweight interpreted programming language with first-class functions.
 
 
 ## Testing
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
+1. Newsletter form :
+    1. Go to the "Activity" page
     2. Try to submit the empty form and verify that an error message about the required fields appears
     3. Try to submit the form with an invalid email address and verify that a relevant error message appears
     4. Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+On smaller aspect ratios, the text will remain the same size, and the viewport length will increase.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
+- The background image for the website was taken from Giphy (https://giphy.com/explore/sonder?sort=relevant)
+- Information about the band was taken fro Amazon Music (https://music.amazon.com/artists/B00J49X7K8/sonder) and (https://www.allmusic.com/artist/sonder-mn0003460455#biography)
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from google images:
+- 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Sonder
+- I received inspiration for some of the features of this project from Apple (Apple.com) and Youtube (Youtube.com)
