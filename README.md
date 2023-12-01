@@ -89,6 +89,7 @@ On smaller aspect ratios, the text will remain the same size, and the viewport l
 ### Media
 - The photos used in this site were obtained from google images:
 - The background image for the website was taken from Giphy (https://giphy.com/explore/sonder?sort=relevant)
+- The music was embedded from spotify (spotify.com)
 
 ### Acknowledgements
 
