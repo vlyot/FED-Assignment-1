@@ -66,6 +66,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - HTML: is the most basic building block of the Web. It defines the meaning and structure of web content.
 - CSS: is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.
 - Javascript: JavaScript (JS) is a lightweight interpreted programming language with first-class functions.
+- 
 
 
 ## Testing
@@ -87,7 +88,7 @@ On smaller aspect ratios, the text will remain the same size, and the viewport l
 - Information about the band was taken fro Amazon Music (https://music.amazon.com/artists/B00J49X7K8/sonder) and (https://www.allmusic.com/artist/sonder-mn0003460455#biography)
 ### Media
 - The photos used in this site were obtained from google images:
-- 
+- more information about their song and their stories were adapted from (https://genius.com/artists/Sonder)
 
 ### Acknowledgements
 
