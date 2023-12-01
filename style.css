@@ -78,69 +78,9 @@ section{
 	opacity: 1;
 }
 
-#sideMenu {
-    position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    background-color: #585858;
-    padding: 20px;
-    border-radius: 8px;
-}
-#sideMenu li.active {
-    font-size: 1.2em;
-    color: #000;
-    background-color: #ddd;
-  }
-
-#sideMenu ul {
-    list-style: none;
-    padding: 0;
-}
-
-#sideMenu li {
-    margin-bottom: 10px;
-}
-
-#sideMenu a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    cursor: default;
-}
-
-#sideMenu a:hover {
-    color: #eeeeee;
-    font-size: 1.1em;
-}
 
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-#progress{
-    position: fixed;
-    bottom: 20px;
-    right: 10px;
-    height:70px;
-    width:70px;
-    display: none;
-    place-items: center;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-
-#progress-value{
-    display: block;
-    height: calc(100% - 15px);
-    width: calc(100% - 15px);
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    font-size: 35px;
-    color:#2c2c2c;
 }
 
 
@@ -157,6 +97,29 @@ html{
     padding: 20px;
     background-color: rgba(128, 128, 128, 0.4)
     
+}
+#progress{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height:70px;
+    width:70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#progress-value{
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color:#2c2c2c;
 }
 
 .disco-container{
@@ -259,6 +222,11 @@ form label{
     margin-top: 50px;
     margin-left: 200px;
     display: flex;
+}
+a{
+    text-decoration: none;
+    font: inherit;
+    color: rgb(41, 202, 230);
 }
 
 .header{
@@ -405,6 +373,7 @@ main {
     width: 300px;
     height: 300px;
 }
+
 
 
 @media (min-width: 768px) {
