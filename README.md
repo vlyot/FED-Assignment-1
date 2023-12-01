@@ -84,11 +84,11 @@ On smaller aspect ratios, the text will remain the same size, and the viewport l
 ## Credits
 
 ### Content
-- The background image for the website was taken from Giphy (https://giphy.com/explore/sonder?sort=relevant)
 - Information about the band was taken fro Amazon Music (https://music.amazon.com/artists/B00J49X7K8/sonder) and (https://www.allmusic.com/artist/sonder-mn0003460455#biography)
+- more information about their song and their stories were adapted from (https://genius.com/artists/Sonder)
 ### Media
 - The photos used in this site were obtained from google images:
-- more information about their song and their stories were adapted from (https://genius.com/artists/Sonder)
+- The background image for the website was taken from Giphy (https://giphy.com/explore/sonder?sort=relevant)
 
 ### Acknowledgements
 
